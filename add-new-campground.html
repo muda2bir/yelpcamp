@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add New Campground | YelpCamp</title>
+    <link rel="stylesheet" href="search-style.css" />
+    <link rel="stylesheet" href="utilities.css" />
+    <link rel="stylesheet" href="indivisual-campground.css" />
+    <link rel="stylesheet" href="add-campground.css" />
+  </head>
+  <body>
+    <div class="container-box">
+      <nav class="navbar">
+        <img src="Assets/Logo.svg" alt="YelpCamp" />
+        <ul class="nav-list">
+          <li><a href="landing-page.html" class="home">Home</a></li>
+          <li>
+            <a href="#" class="user-name">johndoe</a>
+          </li>
+          <li><a href="landing-page.html" class="logout">Logout</a></li>
+        </ul>
+        <img
+          src="Assets/Hamburger Menu.svg"
+          alt="hamburger"
+          class="hamburger"
+        />
+      </nav>
+
+      <!-- Main content -->
+
+      <div class="form-container">
+        <form class="form">
+          <h1>Add New Campground</h1>
+          <label for="camp-name">Campground Name</label>
+          <input
+            type="text"
+            id="camp-name"
+            placeholder="Seven Sisters Waterfall"
+          />
+          <label for="price">Price</label>
+          <input type="text" id="price" placeholder="$149" />
+          <label for="image">Image</label>
+          <input
+            type="text"
+            id="image"
+            placeholder="www.thephinoytraveler.com/2018/01/mt-ulap-diy-dayhike.html"
+          />
+          <label for="description">Description</label>
+          <textarea
+            name="description"
+            id="description"
+            cols="30"
+            rows="10"
+            placeholder="The Seven Sister is the 39th tallest waterfall in Norway. The 410-metre tall waterfall consists of seven separate streams, and the tallest of the seven has a free fall that measures 250 metres. The waterfall is located along the Geirangerfjorden in Strand Municipality in More og Romsdal county, Norway."
+          ></textarea>
+          <a href="#" class="campground-btn">Add Campground</a>
+        </form>
+      </div>
+
+      <!-- Footer logo -->
+
+      <img src="Assets/Logo.svg" alt="YelpCamp" class="bottom-logo" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
